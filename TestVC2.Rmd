@@ -26,5 +26,23 @@ print("Quality quality quality..")
 ```
 
 ```{python}
+import re
+check_int_re = re.compile(r"[0-9]+\?")
+```
 
+```{python}
+tmp = re.search('(.*)\?', '2?')
+print(tmp.group(1))
+```
+
+```{python}
+print("Adding a line to test")
+```
+
+```{python}
+print("Adding one more line...")
+```
+
+```{python}
+print("This is test")
 ```
