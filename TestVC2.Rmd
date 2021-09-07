@@ -13,11 +13,16 @@ jupyter:
 ---
 
 ```{python}
-print("This is Jupyter VC test..")
+Mat grad;
+int scale = 1;
+int delta = 0;
+int ddepth = CV_8U;
+Mat grad_x, grad_y;
+Mat abs_grad_x, abs_grad_y;
 ```
 
 ```{python}
-print("This is the test 1..")
+print("Quality quality quality..")
 ```
 
 ```{python}
